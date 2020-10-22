@@ -13,4 +13,7 @@ cd %UserProfile%\Desktop
 	"encoding": "cp866"
 }
 ```
-
+* single file
+```
+dotnet publish -r win-x64 -p:PublishSingleFile=true --self-contained true
+```
