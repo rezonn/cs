@@ -1,10 +1,13 @@
 # C# console SQL to Excel
 
 * Install [dotnet](https://dotnet.microsoft.com/download)
-* Open cmd, goto desktop, create app "ww", run it
+* Open cmd. Goto desktop
 ```
 cd %UserProfile%\Desktop
 dotnet new console -o ww
+```
+* Create app "ww", run it
+```
 cd ww
 dotnet run
 ```
