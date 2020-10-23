@@ -9,21 +9,19 @@ cd ww
 dotnet run
 ```
 * Replace [Program.cs](Program.cs)
-* Program requred package "System.Data.OleDb", 32bit mode (for Microsoft.Jet.OLEDB.4.0), and run with console arguments ("xsl" and "sql").
+* Add package "System.Data.OleDb" to project
 ```
 dotnet add package System.Data.OleDb
+```
+* Microsoft.Jet.OLEDB requred  32bit mode, and console arguments ("xsl" and "sql"):
+```
 dotnet run -r win-x86 -- -xsl "C:\\Path\\to\\data.xls" -sql "SELECT * FROM names"
 ```
-
 * Compile 
 ```
 dotnet publish -r win-x86 -p:PublishSingleFile=true --self-contained false
 ```
-* Compile with packages
-```
-dotnet publish -r win-x86 -p:PublishSingleFile=true --self-contained true
-```
-* Find
+* Finish, all files in folder
 ```
 cd bin\Debug\netcoreapp3.1\win-x86\publish
 ```
