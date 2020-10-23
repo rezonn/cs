@@ -1,4 +1,4 @@
-# Dotnet tutorial with packages, console arguments, sql to Excel
+# Dotnet tutorial with packages, console arguments, sql to Excel97
 
 * Install [dotnet](https://dotnet.microsoft.com/download)
 * Open cmd, goto desktop, create app "ww", run it
