@@ -15,5 +15,5 @@ cd %UserProfile%\Desktop
 ```
 * single file
 ```
-dotnet publish -r win-x84 -p:PublishSingleFile=true --self-contained true
+dotnet publish -r win-x86 -p:PublishSingleFile=true --self-contained true
 ```
