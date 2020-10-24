@@ -8,7 +8,6 @@ using System.Data.OleDb;
 class Program
 {
     private const string V = "Provider=Microsoft.Jet.OLEDB.4.0;";
-
     static void Main(string[] args)
     {
         Dictionary<string, string> values = new Dictionary<string, string>();
