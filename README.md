@@ -4,10 +4,10 @@
 * Open cmd. Goto desktop
 ```
 cd %UserProfile%\Desktop
-dotnet new console -o ww
 ```
 * Create app "ww", run it
 ```
+dotnet new console -o ww
 cd ww
 dotnet run
 ```
