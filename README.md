@@ -5,7 +5,7 @@
 ```
 cd %UserProfile%\Desktop
 ```
-* Create app "ww", run it
+* Create new console project "ww", run it
 ```
 dotnet new console -o ww
 cd ww
