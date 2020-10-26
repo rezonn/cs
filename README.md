@@ -15,7 +15,6 @@ dotnet run
 * Add package "System.Data.OleDb" to project
 ```
 dotnet add package System.Data.OleDb
-dotnet add package System.Windows.Forms
 ```
 * Microsoft.Jet.OLEDB requred  32bit mode, and console arguments ("xsl" and "sql"):
 ```
