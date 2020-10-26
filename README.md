@@ -21,16 +21,13 @@ dotnet add package System.Windows.Forms
 ```
 dotnet run -r win-x86 -- -xsl "C:\\Path\\to\\data.xls" -sql "SELECT * FROM names"
 ```
-* Compile 
+* Compile to "Compiled" folder
 ```
-dotnet publish -r win-x86 -p:PublishSingleFile=true --self-contained true -p:PublishTrimmed=true
-```
-* Finish, all files in folder
-```
-cd bin\Debug\netcoreapp3.1\win-x86\publish
+dotnet publish -r win-x86 -p:PublishSingleFile=true --self-contained=true -p:PublishTrimmed=true --output ./Compiled
 ```
 * Run it
 ```
+cd Compiled
 ww -xsl "C:\\Path\\to\\data.xls" -sql "SELECT * FROM names"
 ```
 
