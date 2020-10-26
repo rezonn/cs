@@ -23,7 +23,7 @@ dotnet run -r win-x86 -- -xsl "C:\\Path\\to\\data.xls" -sql "SELECT * FROM names
 ```
 * Compile 
 ```
-dotnet publish -r win-x86 -p:PublishSingleFile=true --self-contained false
+dotnet publish -r win-x86 -p:PublishSingleFile=true --self-contained true -p:PublishTrimmed=true
 ```
 * Finish, all files in folder
 ```
