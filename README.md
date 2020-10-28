@@ -39,3 +39,6 @@ ww -xsl "C:\\Path\\to\\data.xls" -sql "SELECT * FROM names"
 }
 ```
 * [About classes](https://docs.microsoft.com/ru-ru/dotnet/csharp/tutorials/intro-to-csharp/introduction-to-classes)
+```
+%windir%\SysWOW64\odbcad32.exe 
+```
